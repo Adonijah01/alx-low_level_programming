@@ -1,8 +1,8 @@
 #include<stdio.h>
 /**
- * main - Entry point
+ * main - Aprogram thst prints the size of various computer types:
  *
- * Return: Always 0 (Success)
+ * Return 0 (Success)
  */
 int main(void)
 {
