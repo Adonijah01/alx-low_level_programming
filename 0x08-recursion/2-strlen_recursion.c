@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- *Dreams feel real while we're in them It's only when we wake up that we realize
- *int _strlen_recursion(char *s)
+ * _strlen_recursion - length of string
+ * @s:string
  * Return:int
  */
 int _strlen_recursion(char *s)
@@ -11,7 +11,7 @@ int _strlen_recursion(char *s)
 	if (*s)
 	{
 		i++;
-		i += _strlen_recursion(s + 3);
+		i += _strlen_recursion(s + 1);
 
 	}
 	return (i);
