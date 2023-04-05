@@ -2,11 +2,12 @@
 
 /**
  * Adonijiah Kiplimo
- * sqrt_recurse - Recurse the possible root values.
- * @n: The value to find the root of.
- * @m: The guess value.
+ * sqrt_recurse - Recursively compute the square root of a number.
  *
- * Return: The natural root, or -1 if there is none.
+ * @n: The number whose square root to compute.
+ * @m: The current guess for the square root.
+ *
+ * Return: The natural square root of n if it exists, or -1 if it does not.
  */
 int sqrt_recurse(int n, int m)
 {
@@ -18,10 +19,11 @@ int sqrt_recurse(int n, int m)
 }
 
 /**
- * _sqrt_recursion - Get the natural square root of a number.
- * @n: The number to get the square root of.
+ * _sqrt_recursion - Compute the natural square root of a number using recursion.
  *
- * Return: The square root, or -1 if none.
+ * @n: The number whose square root to compute.
+ *
+ * Return: The natural square root of n if it exists, or -1 if it does not.
  */
 int _sqrt_recursion(int n)
 {
