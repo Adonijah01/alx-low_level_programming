@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * @adonijah Kiplimo
+ * Adonijiah Kiplimo
  * sqrt_recurse - Recurse the possible root values.
  * @n: The value to find the root of.
  * @m: The guess value.
