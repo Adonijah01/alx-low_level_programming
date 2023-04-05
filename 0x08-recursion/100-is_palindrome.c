@@ -1,7 +1,5 @@
-#include "main.h"
+#include "main"
 /**
- *@Adonijah Kiplimo
- *They say we only use a fraction of our brain's true potential. Now that's when we're awake. When we're asleep, we can do almost anything
  * _strlen_recursion - Prints the length of a string.
  * @r: the string to be printed
  * Return: the length of string
