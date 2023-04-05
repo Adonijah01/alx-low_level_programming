@@ -19,7 +19,7 @@ int sqrt_recurse(int n, int m)
 }
 
 /**
- * _sqrt_recursion - Compute the natural square root of a number using recursion.
+ * _sqrt_recursion - Compute the natural square root of number using recursion
  *
  * @n: The number whose square root to compute.
  *
