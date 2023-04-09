@@ -1,10 +1,10 @@
-#include <stdio.h>
+include <stdio.h>
 #include <stdlib.h>
 
 /**
  * main - multiplies two numbers.
  * @argc: argument count
- * @argv: arguments itselves
+ * @argv: arguments
  *
  * Return: 0
  */
@@ -17,7 +17,7 @@ int main(int argc, char **argv)
 		printf("Error\n");
 		return (1);
 	}
-i
+
 	x = atoi(argv[1]);
 	y = atoi(argv[2]);
 	printf("%d\n", x * y);
