@@ -6,27 +6,27 @@
  * which contains a copy of the string given as a parameter.
  * @str: string to duplicate.
  *
- * Return: pointer to duplicated string, or NULL if insufficient memory
- * was available.
+ * Return: pointer to duplicated strin.
+ * NULL if insufficient memory was available.
  */
 char *_strdup(char *str)
 {
-    int i, len;
-    char *dup_str;
+	char *copy;
+	int i, len = 0;
 
-    if (str == NULL)
-        return (NULL);
+	if (str == NULL)
+		return (NULL);
 
-    len = 0;
-    while (str[len] != '\0')
-        len++;
+	while (str[len] != '\0')
+		len++;
 
-    dup_str = malloc(sizeof(char) * (len + 1));
-    if (dup_str == NULL)
-        return (NULL);
+	copy = (char *)malloc((sizeof(char) * len) + 1);
+	if (copy == NULL)
+		return (NULL);
 
-    for (i = 0; i <= len; i++)
-        dup_str[i] = str[i];
+	for (i = 0; i < len; i++)
+		copy[i] = str[i];
+	copy[len] = '\0';
 
-    return (dup_str);
+	return (copy);
 }
