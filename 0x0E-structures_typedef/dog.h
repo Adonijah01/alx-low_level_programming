@@ -1,5 +1,5 @@
-#ifndef DOG
-#define DOG
+#ifndef dog
+#define dog
 
 /**
  * struct dog - dog class
